@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Student App</h1>
+	<hr>
+	<nav>
+		<ul>
+			<li> <a href="Register_Student.html">Register Student</a>
+			<li> <a href="">Login</a>
+			<li> <a href="">Forgt Password</a>
+			<li> <a href="">Logout</a>
+		</ul>
+	</nav>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration form</title>
+</head>
+<body>
+	<h1>Student_App</h1>
+	<hr>
+	<div class="container">
+
+		<h3>Register here....</h3>
+		<form action="" method="post">
+				<label>Student ID</label><sup>*</sup><br>
+				<input type="number" name="studentID" required="required">
+				<br><br>
+				
+				<label>Student Name</label><sup>*</sup><br>
+				<input type="text" name="name" required="required">
+				<br><br>
+				
+				<label>Marks</label><sup>*</sup><br>
+				<input type="number" name="marks" required="required">
+				<br><br>
+				
+				<label>Email_ID</label><sup>*</sup><br>
+				<input type="text" name="emailid" required="required" >
+				<br><br>
+				
+				<label>Password</label><sup>*</sup><br>
+				<input type="text" name="password" required="required">
+				<br><br>
+				
+				<input type="submit" value="REGISTER">
+		</form>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Login Form</h1>
+	<br>
+	<nav>
+		<ul>
+			<li> <a href="Register_Student.html">Register Student</a>
+			<li> <a href="Login-form.html">Login</a>
+			<li> <a href="Forgot-password.html">Forgt Password</a>
+			<li> <a href="">Logout</a>
+		</ul>
+	</nav>
+	<form action="login">
+	<label>Enter the email ID</label><br>
+	<input type="email" name="email"><br><br>
+	<label>Enter the password</label><br>
+	<input type="password" name="password"><br><br>
+	<input type="submit">
+	</form>
+</body>
+</html>

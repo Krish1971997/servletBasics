@@ -1,0 +1,7 @@
+<classpath>
+  <container id="student-app!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="C:/Users/Admin/eclipse-workspace/Servelet1-workspace/student-app/src/main/webapp/WEB-INF/lib/servlet-api.jar">
+      <source-attachment-path>C:/Users/Admin/Downloads/Servlets softwares</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

@@ -1,0 +1,38 @@
+package com.stu.studentapp.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.stu.studentapp.dao.StudentDatabaseOperations;
+import com.stu.studentapp.dto.Student;
+
+public class SearchStudentServlet extends HttpServlet {
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+		resp.setContentType("text/html");
+		PrintWriter out = resp.getWriter();
+
+		// String id=req.getParameter("sid");
+		int sid = Integer.parseInt(req.getParameter("sid"));
+
+		StudentDatabaseOperations operation = new StudentDatabaseOperations();
+		Student student = operation.searchStudent(sid);
+		if (student != null) {
+			String table = "<table border='1' padding='5'>" + "<tr>" + "<th>ID</th>" + "<th>Name</th>" + "<th>Marks</th>" + "<th>Email</th>"
+					+ "</tr>" + "<td>" + student.getId() + "</td>" + "<td>" + student.getName() + "</td>" + "<td>"
+					+ student.getMarks() + "</td>" + "<td>" + student.getEmailId() + "</td>" + "<tr>" + "</tr>"
+					+ "</table>";
+			
+			out.print(table);
+		} else
+			out.print("No records found for student ID " + sid);
+
+	}
+
+}

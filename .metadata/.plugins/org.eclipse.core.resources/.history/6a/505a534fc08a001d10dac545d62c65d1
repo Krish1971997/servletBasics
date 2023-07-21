@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Login Form</h1>
+	<br>
+	<form action="login">
+	<label>Enter the email ID</label><br>
+	<input type="email" name="email"><br><br>
+	<label>Enter the password</label><br>
+	<input type="password" name="password"><br><br>
+	<input type="submit">
+	</form>
+</body>
+</html>

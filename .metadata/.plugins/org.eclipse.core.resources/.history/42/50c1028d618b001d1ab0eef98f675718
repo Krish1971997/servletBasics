@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student APP</title>
+</head>
+<body>
+
+<hr>
+<br>
+<a  href="">Display all details</a><br>
+<a  href="search-student">Search by ID</a><br>
+<a  href="">Update student</a><br>
+<a  href="">Delete student</a><br>
+<a  href="">Display based on marks</a><br>
+<a  href="">Logout</a><br>
+
+
+</body>
+</html>
